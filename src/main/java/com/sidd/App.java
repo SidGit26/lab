@@ -1,13 +1,17 @@
 package com.sidd;
 
-/**
- * Hello world!
- *
- */
-public class App 
-{
-    public static void main( String[] args )
-    {
-        System.out.println( "Hello World!" );
-    }
+public class MyCalss {
+	public void greeting()
+	{
+		System.out.println("Hello GitHub Actions");
+	}
+	public void testMsg()
+	{
+		System.out.println("This is Test Message");
+	}
+
+	public static void main(String[] args) {		
+		MyCalss ob = new MyCalss();
+		ob.greeting();
+	}
 }
