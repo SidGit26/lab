@@ -1,6 +1,6 @@
 package com.sidd;
 
-public class MyCalss {
+public class App {
 	public void greeting()
 	{
 		System.out.println("Hello GitHub Actions");
@@ -11,7 +11,7 @@ public class MyCalss {
 	}
 
 	public static void main(String[] args) {		
-		MyCalss ob = new MyCalss();
+		App ob = new App();
 		ob.greeting();
 	}
 }
